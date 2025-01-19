@@ -9,5 +9,4 @@ public class HiregamiCandidateServiceApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(HiregamiCandidateServiceApplication.class, args);
 	}
-
 }
