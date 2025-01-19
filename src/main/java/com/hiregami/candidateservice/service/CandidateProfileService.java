@@ -4,6 +4,6 @@ import com.hiregami.data_extraction_library.dto.CandidateProfile;
 
 import java.io.InputStream;
 
-public interface CandidateService {
+public interface CandidateProfileService {
     CandidateProfile createCandidateProfile(String contentType, InputStream inputStream);
 }

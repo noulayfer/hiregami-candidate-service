@@ -1,7 +1,7 @@
 package com.hiregami.candidateservice.service.impl;
 
 import com.hiregami.candidateservice.dataProcessor.DataProcessor;
-import com.hiregami.candidateservice.service.CandidateService;
+import com.hiregami.candidateservice.service.CandidateProfileService;
 import com.hiregami.data_extraction_library.dto.CandidateProfile;
 import com.hiregami.data_extraction_library.dto.ProfileContext;
 import lombok.AllArgsConstructor;
@@ -12,7 +12,7 @@ import java.io.InputStream;
 
 @Service
 @AllArgsConstructor
-public class CandidateProfileServiceImpl implements CandidateService {
+public class CandidateProfileServiceImpl implements CandidateProfileService {
 
     @Autowired
     private DataProcessor aspects;
